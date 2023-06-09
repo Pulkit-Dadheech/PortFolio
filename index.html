@@ -3,506 +3,423 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PULKIT DADHEECH</title>
-    <!-- Css Stylesheets -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/skins/color1.css" />
-    <!-- Font Awesome -->
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Pulkit Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/styleswitcher.css" />
-  </head>
+    <script src="https://kit.fontawesome.com/aba4032f2e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins' , sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center ;
+        height: 70px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(138, 42, 229);
+        font-size: 1.01rem;
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      .firstSection{
+        display: flex;  
+        align-items: center;
+        justify-content: space-around;
+        margin: 0px 0;
+      }
+      .firstSection > div{
+        width:32%;
 
+      }
+      
+      .rightSection{
+     
+        font-size: 3rem;
+        
+    
+      }
+      
+      .leftSection img{
+        width: 110%;
+        margin-bottom: 20px;
+      }
+      .purple{
+        color: rgb(138, 42, 229);
+      }
+      #element{
+        color: rgb(138, 42, 229);
+        
+      }
+
+      .title{
+        display: block;
+        margin: auto;
+      }
+      
+    </style>
+  </head>
   <body>
-    <div class="main-container">
-      <div class="aside">
-        <div class="logo">
-          <a href="#"><span>A</span>tlas</a>
+    <header>
+      <nav>
+        <div class="left">Pulkit's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="#firstSection"> Home</a></li>
+                <li><a href="#secondSection"> About</a></li>
+                <li><a href="#servicesSection"> Services</a></li>
+                <li><a href="#Project"> Projects</a></li>
+                <li><a href="#contact"> Contact Me</a></li>
+            </ul>
         </div>
-        <div class="nav-toggler">
-          <span> </span>
+        
+            
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="firstSection">
+           
+            <div class="leftSection">
+                <img src="/bg1.png" alt="Here is a png of Developer">
+            </div>
+            <div class="rightSection">
+                Hi,My name is <span class="purple">Pulkit </span> 
+
+                <div>and I am a passionate </div> 
+                
+                <span id="element"></span>    
+            </div>
+        </section>
+        <section class="secondSection" id="secondSection">
+          <div class="title">
+            <h1>About<h1>
+            </div>
+            <div class="container">
+                <div class="left-column card">
+                    <div class="image-box">
+                          <div class="image-cropper">
+                            
+                        </div>
+                        <h2 class="username">Pulkit Dadheech</h2>
+                    </div>
+                    <div class="left-desc">
+                        <div class="contact-info">
+                            <ul>
+                                <li>
+                                    <div class="icon-text">
+                                        <i class="fa-solid fa-suitcase"></i>
+                                        <p>Web Developer</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-text">
+                                        <i class="fa-solid fa-house"></i>
+                                        <p>Bhilwara,Rajasthan</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-text">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <p>pulkitdadheech83@gmail.com</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-text">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <p>9509476542</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <section class="skills">
+                            <div class="icon-text">
+                                <i class="fa-sharp fa-solid fa-star-of-life"></i>
+                                <h3 class>Skills</h3>
+                            </div>
+                            <hr>
+                            <ul>
+                                <div class="Sub-Topic">
+            
+                                    <h4>Languages</h4>
+                                </div>
+                                
+                                <li>
+                                    <p>Java</p>
+                                    <div class="progress-bar">
+                                        <div style="width: 90%;" class="progress">90%</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Javascript</p>
+                                    <div class="progress-bar">
+                                        <div style="width: 70%;" class="progress">70%</div>
+                                </li>
+                                <li>
+                                    <p>Python</p>
+                                    <div class="progress-bar">
+                                        <div style="width: 30%;" class="progress">30%</div>
+                                </li>
+                                
+                            </ul>
+
+                            <ul>
+                                <div class="Sub-Topic">
+                                    <h4>Concepts</h4>
+                                </div>
+                                <li>
+                                    <p>Object-oriented programming</p>
+                                    <div class="progress-bar">
+                                        <div style="width: 90%" class="progress">90%</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Web Development</p>
+                                    <div class="progress-bar">
+                                        <div style="width: 50%" class="progress">50%</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="right-column">
+                    <section class="Name card">
+                        <div class="icon-text">
+                                
+                                <h1 class="Name" style="margin-inline: auto;">Pulkit Dadheech</h1>
+                            </div>
+                            <!-- <hr class="Name3"> -->
+                            <div class="Name2"> </div>
+                                
+                               
+                                   
+                    </section>
+                    <section class="education-card">
+                        <div class="icon-text">
+                                <i class="fa-solid fa-school"></i>
+                                <h2>Educational Qualifications</h2>
+                            </div>
+                            <hr>
+                            <article>
+                                <p class="Description2">Bachelor of Engineering : Undergraduate in SPPU</p>
+                                <p class="Description4">SKN Sinhgad College of Technology and Science,Lonavala</p>
+                                <p class="Description3">B.E.- Computer Science and Engineering | Persuing</p>
+                               
+                            </article>
+                            
+                            <article>
+                                <p class="Description2">12th Central Board of Secondary Education(CBSE)</p>
+                                <p class="Description4">Central Academy Senior Secondary School,Bhilwara</p>
+                                <p class="Description3">Year of Completion : 2019 | Percentage : 82/100</p>
+                               
+                            </article>
+                            <article>
+                                <p class="Description2">10th Central Board of Secondary Education(CBSE)</p>
+                                <p class="Description4">Central Academy Senior Secondary School,Bhilwara</p>
+                                <p class="Description3">Year of Completion : 2017 | CGPA : 8.6/10</p>
+                               
+                            </article>         
+                    </section>
+                    
+                    
+                    
+                    <section class="Extra-card">
+                        <div class="icon-text">
+                                <i class="fa-solid fa-school"></i>
+                                <h2>Extra-Curricular Activities</h2>
+                            </div>
+                            <hr>
+                            <article>
+                                <p class="Extra1">Organised Internal Hachathon with Whole Team</p>
+                                <p class="Extra2">Technical Member of Music Club</p>
+                                <p class="Extra3">Participated in - IEEE Quizzards</p>
+                               
+                            </article>        
+                    </section>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="thirdSection" id="servicesSection">
+          <div class="title">
+            <h3>Services</h3>
+          </div>
+          <div class="scon"></div>
+          <div class="serviceContainer">
+              <div class="icon">
+                <i class="fa fa-mobile-alt"></i>
+              </div>
+                <h2>Java Development</h2>
+                <p>I am Currently Learning and Implement my learning of Java in Projects</p>
+          </div>
+      
+                 <!-- ===== Service item End ====== -->
+                 <!-- ===== Service item Start ====== -->
+          <div class="serviceContainer">
+            <div class="icon">
+              <i class="fa fa-laptop-code"></i>
+            </div>
+              <h2>Web Design & Development</h2>
+              <p>I am Currently learning and Implementing my learning in web Design and development</p>
+          
+         </div>
+         <div class="serviceContainer">
+          <div class="icon">
+            <i class="fa fa-laptop-code"></i>
+          </div>
+            <h2>Python Development</h2>
+            <p>I am Currently learning and Implementing my learning in Python Projects</p>
+        
+       </div>
+                
         </div>
-        <ul class="nav">
-          <li>
-            <a href="#Home" class="active"> <i class="fa fa-home"></i>Home </a>
-          </li>
-          <li>
-            <a href="#About"><i class="fa fa-user"></i>About</a>
-          </li>
-          <li>
-            <a href="#Service"><i class="fa fa-list"></i>Services</a>
-          </li>
-          <li>
-            <a href="#Portfolio"><i class="fa fa-briefcase"></i>Portfolio </a>
-          </li>
-          <li>
-            <a href="#Contact"><i class="fa fa-comments"></i>Contact </a>
-          </li>
-        </ul>
+        </section>
+    <!-- Project Section -->
+    <section id="Project">
+            <div class="title">
+            <h1>Projects<h1>
+            </div>
+            <div class="Project-row">
+                <div class="col">
+                  <div class="Project-card-1">
+                    <img src="./developer.png" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CodeB Website</h5>
+                      <p class="card-text">A Blog Website Developed containing several section such as Technology, Web Development and TechFun Section - HTML,CSS,BOOTSTRAP.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="Project-card-2">
+                    <img src="./Resume.png" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Resume Website</h5>
+                      <p class="card-text">This is a website designed using the concept of Flexbox in CSS.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+    </section>
+   
+ 
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
       </div>
-      <div class="main-content">
-        <section id="Home" class="home section">
-          <div class="container">
-            <div class="row">
-              <div class="home-info padd-15">
-                <h3 class="hello">
-                  Hello, my name is <span class="name">Pulkit Dadheech</span>
-                </h3>
-                <h3 class="my-profession">
-                  I' m a <span class="typing">web Designer</span>
-                </h3>
-                <p>
-                  I'm a web designer with a extensive experience fro over 1
-                  years.My expertise is to create and website design,graphic
-                  design, and many more...
-                </p>
-                <a href="#contact" class="btn hire-me">Hire Me</a>
-              </div>
-              <div class="home-img padd-15">
-                <img src="Images/devPic.jpg" alt="" />
-              </div>
-            </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9509476542</h2>
+            
           </div>
-        </section>
-        <section id="About" class="about section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>About Me</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="about-content padd-15">
-                <div class="row">
-                  <div class="about-text padd-15">
-                    <h3>I'm Pulkit Dadheech and <span>Web Developer</span></h3>
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Quibusdam inventore aut error, tempore veniam delectus
-                      quia atque sit voluptas alias sapiente illum provident
-                      cupiditate quisquam repellat facilis consequatur ipsam
-                      voluptatibus repudiandae laudantium sequi perspiciatis
-                      eos. Quod nihil, culpa sed voluptates vel accusamus
-                      perspiciatis hic. Voluptate doloribus fugit harum sapiente
-                      id saepe sequi beatae cumque possimus!
-                    </p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="personal-info padd-15">
-                    <div class="row">
-                      <div class="info-item padd-15">
-                        <p>Birthday : <span>10 December 2001</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Age : <span>21 years</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Website : <span>www.domain.com</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Email : <span>pulkitdadheech.sknsits.comp@gmail.com</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Degree : <span>B.E. Computer Engineering</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Phone : <span>+91 9509476542</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>City : <span>Bhilwara , Pune</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Freelance : <span>Available</span></p>
-                      </div>
-                      <div class="row">
-                        <div class="buttons padd-15">
-                          <a href="*" class="btn">Download CV</a>
-                          <a href="#contact" class="btn Hire-me"> Hire Me</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skills padd-15">
-                    <div class="row">
-                      <div class="skill-item padd-15">
-                        <h5>JS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 58%"></div>
-                          <div class="skill-percent">58%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>JAVA</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 82%"></div>
-                          <div class="skill-percent">82%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>CSS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="skill-percent">76%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>HTML</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 96%"></div>
-                          <div class="skill-percent">96%</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="education padd-15">
-                    <h3 class="title">Education</h3>
-                    <div class="row">
-                      <div class="timeline-box padd-15">
-                        <div class="timeline shadow-dark">
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2021-2024
-                            </h3>
-                            <h4 class="timeline-title">
-                              Bachelor In Computer Engineering
-                            </h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Esse earum non quisquam. Cumque, libero
-                              voluptatem magnam repellat id praesentium qui
-                              suscipit dolorem iusto in obcaecati.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2018-2019
-                            </h3>
-                            <h4 class="timeline-title">
-                              Bachelor In Computer Engineering
-                            </h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Esse earum non quisquam. Cumque, libero
-                              voluptatem magnam repellat id praesentium qui
-                              suscipit dolorem iusto in obcaecati.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2016-2017
-                            </h3>
-                            <h4 class="timeline-title"></h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Esse earum non quisquam. Cumque, libero
-                              voluptatem magnam repellat id praesentium qui
-                              suscipit dolorem iusto in obcaecati.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="experience padd-15">
-                    <h3 class="title">Experience</h3>
-                    <div class="row">
-                      <div class="timeline-box padd-15">
-                        <div class="timeline shadow-dark">
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2021-2024
-                            </h3>
-                            <h4 class="timeline-title">
-                              Bachelor In Computer Engineering
-                            </h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Esse earum non quisquam. Cumque, libero
-                              voluptatem magnam repellat id praesentium qui
-                              suscipit dolorem iusto in obcaecati.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2018-2019
-                            </h3>
-                            <h4 class="timeline-title">
-                              Bachelor In Computer Engineering
-                            </h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Esse earum non quisquam. Cumque, libero
-                              voluptatem magnam repellat id praesentium qui
-                              suscipit dolorem iusto in obcaecati.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2016-2017
-                            </h3>
-                            <h4 class="timeline-title"></h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Esse earum non quisquam. Cumque, libero
-                              voluptatem magnam repellat id praesentium qui
-                              suscipit dolorem iusto in obcaecati.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>pulkitdadheech.sknsit.comp@gmail.com</h2>
+           
           </div>
-        </section>
-        <section id="Service" class="service section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Services</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-mobile-alt"></i>
-                  </div>
-                  <h4>Web Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Sequi veritatis adipisci a!
-                  </p>
-                </div>
-              </div>
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-laptop-code"></i>
-                  </div>
-                  <h4>Web Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Sequi veritatis adipisci a!
-                  </p>
-                </div>
-              </div>
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-palette"></i>
-                  </div>
-                  <h4>Web Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Sequi veritatis adipisci a!
-                  </p>
-                </div>
-              </div>
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-code"></i>
-                  </div>
-                  <h4>Web Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Sequi veritatis adipisci a!
-                  </p>
-                </div>
-              </div>
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-search"></i>
-                  </div>
-                  <h4>Web Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Sequi veritatis adipisci a!
-                  </p>
-                </div>
-              </div>
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-bullhorn"></i>
-                  </div>
-                  <h4>Web Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Sequi veritatis adipisci a!
-                  </p>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Bhilwara , Rajasthan</h2>
           </div>
-        </section>
-        <section id="Portfolio" class="portfolio section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Portfolio</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="portfolio-heading padd-15">
-                <h2>My Projects :</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="Images/Portfolio.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="Images/Portfolio.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="Images/Portfolio.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <video
-                      src="videos/CoffeeMachineAnimation.mp4"
-                      autoplay
-                      muted
-                      loop
-                    ></video>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="Images/Instagram Clone.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="Images/Tinder Clone.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="Contact" class="contact section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Contact Me</h2>
-              </div>
-            </div>
-            <h3 class="contact-title padd-15">Have You Any Question?</h3>
-            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-            <div class="row">
-              <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa fa-phone"></i></div>
-                <h4>Call Us On</h4>
-                <p>+91 9509476542</p>
-              </div>
-              <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa fa-envelope"></i></div>
-                <h4>Email</h4>
-                <p>pulkitdadheech.sknsits.comp@gmail.com</p>
-              </div>
-              <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                <h4>Website</h4>
-                <p>www.website.com</p>
-              </div>
-            </div>
-            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-            <h4 class="contact-sub-title padd-15">
-              I'M VERY RESPONSIVE TO MESSAGES
-            </h4>
-            <div class="row">
-              <div class="contact-form padd-15">
-                <div class="row">
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Subject"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <textarea
-                        name=""
-                        id=""
-                        class="form-control"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
     </div>
+  </section>
+  <!-- End Contact Section -->
 
-    <!-- Javasript Files -->
-    <script src="script.js"></script>
+  <!-- Footer -->
+
+    <style>
+    /* CSS styles for the footer */
+    .footer {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .social-icons img {
+      
+      height: 30px;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Content of your website -->
+  
+  <footer class="footer">
+
+    <div class="social-icons">
+      <a href="https://www.github.com"><img src="/github.png" alt="github"></a>
+      
+      <a href="https://www.twitter.com"><img src="/linkedin.png" alt="linkdin"></a>
+      
+      
+    
+    </div>
+    
+  </footer>
+
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+    <script>
+        var options = {
+             strings: ["Web Developer", "Java Developer", "Python Developer"],
+             typeSpeed: 40,
+           }
+           var typed = new Typed("#elements", options);
+           loop: true
+       </script>
+
   </body>
 </html>
